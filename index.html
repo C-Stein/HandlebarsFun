@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Handlebars Fun</title>
+</head>
+<body>
+  <h1>2017- My Best Year Ever</h1>
+  
+  <div id="resolutionOutput"></div>
+
+  <script id="resolution-partial" type="text/x-handlebars-template">
+    <div class="resolution">
+      <h4>My resolution is to {{resolution}}</h4>
+      <div class="priority">Priority: {{priority}}</div>
+    </div>
+  </script>
+  
+  <script src="/bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
+  <script src="/bower_components/handlebars/handlebars.js" type="text/javascript"></script>
+  <script src="handlebars.js" type="text/javascript"></script>
+</body>
+</html>
